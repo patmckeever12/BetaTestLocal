@@ -12,3 +12,6 @@ Make this a fork !
 Should always be patricks way
 
 I'm making a web edit of your code, how do you like that !?
+
+Data
+The data area contains global and static variables used by the program that are explicitly initialized with a value. This segment can be further classified into a read-only area and read-write area. For instance, the string defined by char s[] = "hello world" in C and a C statement like int debug=1 outside the "main" would be stored in initialized read-write area. And a C statement like const char* string = "hello world" makes the string literal "hello world" to be stored in initialized read-only area and the character pointer variable string in initialized read-write area. Ex: both static int i = 10 and global int i = 10 will be stored in the data segment.
